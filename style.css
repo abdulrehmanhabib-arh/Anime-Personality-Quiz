@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+}
+FOOTER{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 8px;
+    font-weight: 500;
+    border: 1px solid #eee;
+    border-top: none;
+    border-left: none;
+    z-index: 1000;
+}
+.watermark{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 8px;
+    font-weight: 500;
+    border: 1px solid #eee;
+    border-top: none;
+    border-left: none;
+    z-index: 1000;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#options {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4a90e2; /* Updated button color */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #357ab8; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly scale on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+.option {
+    margin: 10px 0;
+    padding: 15px;
+    border: 2px solid #4a90e2; /* Updated border color */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.option:hover {
+    background-color: #4a90e2; /* Updated hover color */
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.selected {
+    background-color: #4a90e2; /* Same as the hover color */
+    color: white; /* Text color for selected option */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Optional shadow for selected option */
+    transition: transform 0.2s; /* Optional transition effect */
+    transform: scale(1.05); /* Slightly scale up the selected option */
+}
+
+#result {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+#result-text {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#restart-button {
+    margin-top: 20px;
+    background-color: #fc5c7d; /* Update restart button color */
+}
+
+#restart-button:hover {
+    background-color: #c63f5b; /* Darker shade on hover */
+}
